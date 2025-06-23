@@ -1,0 +1,21 @@
+{
+  "teacher_acc": 0.9542547958681751,
+  "student_initial_acc": 0.061977373339891784,
+  "student_final_acc": 0.778160354156419,
+  "improvement": 0.7161829808165272,
+  "training_hours": 0.20200087434715694,
+  "config": {
+    "mode": "train",
+    "epochs": 40,
+    "batch_size": 16,
+    "lr": 0.0002,
+    "alpha": 0.8,
+    "temperature": 3.0,
+    "label_smoothing": 0.1,
+    "focal_loss": false,
+    "weight_decay": 0.0001,
+    "checkpoint": "latest_checkpoint.pth",
+    "model": "student_model.pth",
+    "resume": true
+  }
+}
